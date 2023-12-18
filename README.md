@@ -60,6 +60,7 @@
 - **slu_data_augment.py (pre-processing)**: augmentation dataset for make ballance distribute
 - **prepare_token_label.py (pre-processing)**: create token & intent labels for training *second-stage*
 - **align_prediction.py (post-processing)**: remove empty entities or adding some *command* to entities list
+- **W2V_v1.ipynb**: Fine tuning Wav2Vec2.0 version 1+2 (see hyperparameters in this notebook). Gready search for inference
 - **W2V_v3.ipynb**: Fine tuning Wav2Vec2.0 version 3 + Beam search CTC 4gram with beam width is 32 for inference
 - **Bert_SLU.ipynb**: Step-by-step fine tuning ROBERTA for this task 
 - **build_ngram.sh**: Build 4gram .arpa file
